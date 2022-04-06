@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+*{
+  font-family: 'Boogaloo', cursive;
+}
+.home-container {
+  background-color : #000;
+}
+.header-container {
+  position : fixed;
+  top : 0px;
+}
+.text-green{
+  color:#A7D129;
+}
+.heading{
+  font-size: 12vh;
+}
+.text-shadow{
+  text-shadow: 2px 2px 4px #000000;
+}
+.custom-link{
+  color:#A7D129;
+  text-decoration: none;
+}
+.custom-link:hover{
+  color:#616F39;
+}
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.background-overlay{
+  background: rgb(0,0,0,0.5);
+}
+.home-play {
+  height : 100vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('./assets/bg3.jpg');
+}
+.custom-play-img{
+  height: 100px;
+}
+.custom-btn{
+  background-color:none;
+  border:2px solid #A7D129;
+  color:#A7D129;
+  font-size: 40px;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.custom-btn:hover{
+  background-color: #A7D129;
+  color:white;
+}
+.home-leaderboard-container{
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('./assets/bg1.jpg');
+}
+.home-contribute-container{
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('./assets/bg4.jpg');
+}
+.home-contact-container{
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('./assets/bg5.png');
+}
+.home-play-desc{
+  color:#8cac33;
+  text-shadow: .2px .2px .4px #000000;
+}
+.home-leaderboard-heading{
+  font-size: 5vw;
+}
+.leaderboard-list-container{
+  background-color: #A7D129;
+}
+.cont{ 
+  background: white;
+  border-radius: 20px; 
+  box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.custom-list{
+  box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px #A7D129,
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+.playarea-container{
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('./assets/bg5.jpg');
+}
+.play-btn{
+  height:100px;
+}
+.option-span:hover{
+  box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px #A7D129,
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .cont {
+      background: none;
+      box-shadow: none;
+  }
+  .span-text{
+    color:white
+  }
+}
